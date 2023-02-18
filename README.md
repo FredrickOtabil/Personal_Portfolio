@@ -58,8 +58,8 @@ Clone this repository to your desired folder:
 
 ```sh
   cd your-folder
-  git clone https://github.com/FredrickOtabil/Hello-World.git
-  cd Hello-World
+  git clone https://github.com/FredrickOtabil/Personal_Portfolio.git
+  cd Personal_Portfolio
 ```
 
 ### Install
