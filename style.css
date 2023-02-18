@@ -82,6 +82,7 @@
   .hero-wrapper .desktop-nav {
     display: none;
   }
+
   .body-wrapper .mobile-nav {
     display: flex;
     justify-content: space-between;
@@ -90,6 +91,7 @@
   .hero-section {
     margin-top: -30px;
   }
+
   .hero-wrapper {
     background: url("assets/main-images/hero-bg.png") no-repeat center center;
     background-size: cover;
