@@ -114,6 +114,7 @@
     position: relative;
     margin-top: 100px;
   }
+
   .hero-section .container .content strong {
     font-weight: 700;
     color: var(--primary-font);
@@ -128,6 +129,7 @@
     flex: none;
     flex-grow: 0;
   }
+
   .hero-section .container .content strong > * {
     color: var(--primary-color);
   }
