@@ -16,6 +16,7 @@
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
+  - [📝 License ](#-license-)
 
 # 📖 [My Portfolio] <a name="about-project"></a>
 
@@ -125,3 +126,7 @@ Many hours have been spent on this project. As a result, I'd like to thank my en
 - **[From where do I begin my journey with your Company?]**
 
   - [It all starts with the filling of our registration form]
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.

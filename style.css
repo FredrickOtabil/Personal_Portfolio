@@ -35,7 +35,7 @@
   font-size: 20px;
   font-weight: 700;
   color: #28352f;
-  font-family: var(--primary-font);
+  font-family: var(--tertiary-font);
   text-decoration: none;
 }
 
@@ -115,7 +115,7 @@
     margin-top: 100px;
   }
 
-  .hero-section .container .content strong {
+  .hero-section .container .content h1 {
     font-weight: 700;
     color: var(--primary-font);
     margin-bottom: 20px;
@@ -130,7 +130,7 @@
     flex-grow: 0;
   }
 
-  .hero-section .container .content strong > * {
+  .hero-section .container .content h1 > * {
     color: var(--primary-color);
   }
 
