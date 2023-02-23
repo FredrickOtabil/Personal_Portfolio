@@ -276,6 +276,7 @@ body {
 
   /* about section */
   .about-section {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -283,10 +284,25 @@ body {
   }
 
   .about-section .bio-container {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+
+  .about-section .bio-container .img1 {
+    position: absolute;
+    top: 0;
+    right: -10px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+
+  .about-section .bio-container .img2 {
+    position: absolute;
+    bottom: 0;
+    left: -10px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
   }
 
   .about-section .bio-container .heading {
@@ -344,12 +360,16 @@ body {
     border-radius: 8px;
     box-sizing: border-box;
     margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .about-section .bio-details .card .icon-container {
-    position: absolute;
     width: 80px;
     height: 80px;
+    padding: 20px;
     border-radius: 50%;
     background: #fff;
     box-sizing: border-box;
@@ -357,8 +377,7 @@ body {
     justify-content: center;
     align-items: center;
     box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
-    left: calc(50% - 80px / 2 + 0.5px);
-    top: calc(20% - 80px / 2);
+    margin-top: 40px;
   }
 
   .about-section .bio-details .card .content {
@@ -368,11 +387,8 @@ body {
     padding: 16px;
     gap: 16px;
     height: 222px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
     border-radius: 8px;
+    margin-top: 64px;
   }
 
   .about-section .bio-details .card .content .title {
