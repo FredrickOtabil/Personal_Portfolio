@@ -173,7 +173,7 @@ body {
     align-items: center;
   }
 
-  .work-section > h1 {
+  .work-section .heading {
     text-align: center;
     font-family: var(--tertiary-font);
     color: var(--secondary-color);
@@ -202,7 +202,7 @@ body {
     width: 327px;
     height: 474px;
     margin-top: 24px;
-    bottom: 0px;
+    bottom: 0;
     background: #ebf0ee;
     border: 1px solid #d0d9d4;
     border-radius: 8px;
@@ -219,8 +219,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    bottom: 0px;
-    background: #ffffff;
+    background: #fff;
     border-radius: 8px;
   }
 
@@ -290,7 +289,7 @@ body {
     flex-direction: column;
   }
 
-  .about-section .bio-container > h1 {
+  .about-section .bio-container .heading {
     text-align: center;
     font-family: var(--tertiary-font);
     color: var(--secondary-color);
@@ -301,7 +300,7 @@ body {
     margin-top: 64px;
   }
 
-  .about-section .bio-container > p {
+  .about-section .bio-container .desc {
     font-family: var(--tertiary-font);
     width: 351px;
     height: 189px;
@@ -314,7 +313,7 @@ body {
     margin: 24px 0;
   }
 
-  .about-section .bio-container > button {
+  .about-section .bio-container .btn {
     font-family: var(--tertiary-font);
     text-align: center;
     padding: 12px;
@@ -357,7 +356,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 16px 24px rgba(37, 47, 137, 0.08);
+    box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
     left: calc(50% - 80px / 2 + 0.5px);
     top: calc(20% - 80px / 2);
   }
@@ -373,7 +372,6 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    bottom: 0px;
     border-radius: 8px;
   }
 
@@ -413,7 +411,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--primary-color);
     flex-grow: 0;
-    box-shadow: 0px 16px 24px rgba(37, 47, 137, 0.08);
+    box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
   }
 
   .contact-section {
@@ -424,7 +422,7 @@ body {
     margin-top: 59px;
   }
 
-  .contact-section > h1 {
+  .contact-section .contact-heading {
     width: 327px;
     height: 363px;
     font-family: var(--tertiary-font);
@@ -456,7 +454,7 @@ body {
     line-height: 24px;
     color: #6b778c;
     padding-left: 10px;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
     margin-top: 24px;
@@ -466,12 +464,12 @@ body {
     width: 327px;
     height: 114px;
     margin-top: 24px;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #60c095;
     border-radius: 4px;
   }
 
-  .contact-section form > button {
+  .contact-section form .form-btn {
     font-family: var(--tertiary-font);
     text-align: center;
     padding: 12px;
@@ -494,7 +492,6 @@ body {
     align-items: center;
     flex-direction: column;
     margin-top: 59px;
-    /* margin-bottom: 10px; */
   }
 
   footer .socials-wrapper {
@@ -509,7 +506,7 @@ body {
     list-style: none;
   }
 
-  footer p {
+  footer .footer-email {
     font-family: var(--tertiary-font);
     font-style: normal;
     font-weight: 400;
@@ -534,15 +531,16 @@ body {
     bottom: 0;
     animation: copyright 0.8s ease-in-out;
   }
-}
 
-@keyframes copyright {
-  from {
-    opacity: 0;
-    transform: translateY(100px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0px);
+  @keyframes copyright {
+    from {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }
