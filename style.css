@@ -469,14 +469,14 @@ body {
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    color: #6B778C;
+    color: #6b778c;
     padding-left: 10px;
     background: #fff;
-    border: 1px solid #D0D9D4;
+    border: 1px solid #d0d9d4;
     border-radius: 4px;
     margin-top: 24px;
   }
-  
+
   .contact-section form > textarea {
     width: 327px;
     height: 114px;
