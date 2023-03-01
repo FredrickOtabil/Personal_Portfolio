@@ -233,17 +233,35 @@
           I'm always interested in hearing about new projects, so if you'd like
           to chat please get in touch.
         </h1>
-        <form action="" method="post">
-          <input type="text" placeholder="Full name" required />
-          <input type="email" placeholder="Email" required />
-          <textarea
-            name="comment"
-            id="comment"
-            cols="30"
-            rows="10"
-            required
-          ></textarea>
-          <button class="form-btn">Get in touch</button>
+        <form action="https://formspree.io/f/xrgvkqay" method="POST">
+          <fieldset>
+            <input
+              type="text"
+              name="name"
+              placeholder="Full name"
+              required
+              title="Please enter your full name here"
+              maxlength="30"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              required
+              title="Please enter your email address here"
+            />
+            <textarea
+              name="message"
+              id="comment"
+              cols="30"
+              rows="10"
+              required
+              title="Please enter your message here"
+              placeholder="Enter text here"
+              maxlength="500"
+            ></textarea>
+            <button class="form-btn" type="submit">Get in touch</button>
+          </fieldset>
         </form>
       </section>
       <footer>

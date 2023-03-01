@@ -455,14 +455,15 @@ body {
   }
 
   /* contact section */
-  .contact-section form {
+  .contact-section form fieldset {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: none;
   }
 
-  .contact-section form > input {
+  .contact-section form > fieldset input {
     width: 327px;
     height: 48px;
     font-style: normal;
@@ -477,13 +478,20 @@ body {
     margin-top: 24px;
   }
 
-  .contact-section form > textarea {
+  .contact-section form > fieldset textarea {
     width: 327px;
     height: 114px;
     margin-top: 24px;
     background: #fff;
     border: 1px solid #60c095;
     border-radius: 4px;
+    padding: 10px;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #6b778c;
+    font-weight: 400;
   }
 
   .contact-section form .form-btn {
