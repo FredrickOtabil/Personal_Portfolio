@@ -237,6 +237,7 @@ body {
 
   .card-wrapper .card .content ul {
     display: flex;
+    float: left;
     gap: 10px;
     margin: 10px 0;
   }
