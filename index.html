@@ -17,7 +17,14 @@
       <!-- mobile nav section -->
       <header class="mobile-nav">
         <a href="/" class="logo">Welcome</a>
-        <nav><i style="font-size: x-large" class="fa-solid fa-bars"></i></nav>
+        <nav>
+          <i style="font-size: x-large" class="fa-solid fa-bars"></i>
+          <ul>
+            <li><a href="/">Portfolio</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </nav>
       </header>
       <div class="hero-wrapper">
         <!-- hero section -->
@@ -233,8 +240,9 @@
           I'm always interested in hearing about new projects, so if you'd like
           to chat please get in touch.
         </h1>
+
         <form action="https://formspree.io/f/xrgvkqay" method="POST">
-          <fieldset>
+          <fieldset class="mobile-form">
             <input
               type="text"
               name="name"
@@ -243,6 +251,47 @@
               title="Please enter your full name here"
               maxlength="30"
             />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              required
+              title="Please enter your email address here"
+            />
+            <textarea
+              name="message"
+              id="comment"
+              cols="30"
+              rows="10"
+              required
+              title="Please enter your message here"
+              placeholder="Enter text here"
+              maxlength="500"
+            ></textarea>
+            <button class="form-btn" type="submit">Get in touch</button>
+          </fieldset>
+        </form>
+
+        <form action="https://formspree.io/f/xrgvkqay" method="POST">
+          <fieldset class="desktop-form">
+            <div class="input-wrapper">
+              <input
+                type="text"
+                name="name"
+                placeholder="First name"
+                required
+                title="Please enter your first name here"
+                maxlength="30"
+              />
+              <input
+                type="text"
+                name="name"
+                placeholder="Last name"
+                required
+                title="Please enter your last name here"
+                maxlength="30"
+              />
+            </div>
             <input
               type="email"
               name="email"
