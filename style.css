@@ -62,7 +62,7 @@ body {
 
 .body-wrapper .mobile-nav nav ul,
 .body-wrapper .mobile-nav nav ul li a:hover {
-  color: #EE5425;
+  color: var(--primary-color);
   -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
