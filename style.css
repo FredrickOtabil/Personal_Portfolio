@@ -46,6 +46,8 @@ body {
 
 .body-wrapper .mobile-nav nav ul,
 .body-wrapper .mobile-nav nav ul li a {
+  animation: reverse;
+  transition: transform 1s;
   display: inline-flex;
   align-items: center;
   gap: 20px;
@@ -56,6 +58,14 @@ body {
   line-height: 20px;
   color: #344563;
   font-family: var(--tertiary-font);
+}
+
+.body-wrapper .mobile-nav nav ul,
+.body-wrapper .mobile-nav nav ul li a:hover {
+  color: #EE5425;
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .body-wrapper .mobile-nav .logo {
