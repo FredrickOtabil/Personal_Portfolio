@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
     <script
       src="https://kit.fontawesome.com/8f721d437f.js"
       crossorigin="anonymous"
@@ -17,7 +16,14 @@
       <!-- mobile nav section -->
       <header class="mobile-nav">
         <a href="/" class="logo">Welcome</a>
-        <nav><i style="font-size: x-large" class="fa-solid fa-bars"></i></nav>
+        <nav>
+          <i style="font-size: x-large" class="fa-solid fa-bars"></i>
+          <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
       </header>
       <div class="hero-wrapper">
         <!-- hero section -->
@@ -71,102 +77,109 @@
               </li>
             </ul>
             <button class="down-arrow">
-              <i class="fa-solid fa-chevron-down"></i>
+              <a href="#footer" class="link">
+                <i class="fa-solid fa-chevron-down"></i>
+              </a>
             </button>
           </div>
         </section>
       </div>
       <!-- work section -->
-      <section class="work-section">
+      <section class="work-section" id="portfolio">
         <h2 class="heading">
           My Recent<br />
           Works
         </h2>
-        <span class="divider"></span>
+        <div class="divider"></div>
         <div class="card-wrapper">
-          <article class="card">
-            <section class="content">
-              <h4 class="title">Multi-Post Stories Gain+Glory</h4>
-              <ul>
-                <li>Ruby on rails</li>
-                <li>css</li>
-                <li>Javascript</li>
-                <li>Html</li>
-              </ul>
-              <button>See Project</button>
-            </section>
-          </article>
-          <article class="card">
-            <section class="content">
-              <h4 class="title">Multi-Post Stories Gain+Glory</h4>
-              <ul>
-                <li>Ruby on rails</li>
-                <li>css</li>
-                <li>Javascript</li>
-                <li>Html</li>
-              </ul>
-              <button>See Project</button>
-            </section>
-          </article>
-          <article class="card">
-            <section class="content">
-              <h4 class="title">Multi-Post Stories Gain+Glory</h4>
-              <ul>
-                <li>Ruby on rails</li>
-                <li>css</li>
-                <li>Javascript</li>
-                <li>Html</li>
-              </ul>
-              <button>See Project</button>
-            </section>
-          </article>
-          <article class="card">
-            <section class="content">
-              <h4 class="title">Multi-Post Stories Gain+Glory</h4>
-              <ul>
-                <li>Ruby on rails</li>
-                <li>css</li>
-                <li>Javascript</li>
-                <li>Html</li>
-              </ul>
-              <button>See Project</button>
-            </section>
-          </article>
-          <article class="card">
-            <section class="content">
-              <h4 class="title">Multi-Post Stories Gain+Glory</h4>
-              <ul>
-                <li>Ruby on rails</li>
-                <li>css</li>
-                <li>Javascript</li>
-                <li>Html</li>
-              </ul>
-              <button>See Project</button>
-            </section>
-          </article>
-          <article class="card">
-            <section class="content">
-              <h4 class="title">Multi-Post Stories Gain+Glory</h4>
-              <ul>
-                <li>Ruby on rails</li>
-                <li>css</li>
-                <li>Javascript</li>
-                <li>Html</li>
-              </ul>
-              <button>See Project</button>
-            </section>
-          </article>
+          <div class="card-container">
+            <article class="card">
+              <section class="content">
+                <h4 class="title">Multi-Post Stories Gain+Glory</h4>
+                <ul>
+                  <li>Ruby on rails</li>
+                  <li>css</li>
+                  <li>Javascript</li>
+                  <li>Html</li>
+                </ul>
+                <button>See Project</button>
+              </section>
+            </article>
+            <article class="card">
+              <section class="content">
+                <h4 class="title">Multi-Post Stories Gain+Glory</h4>
+                <ul>
+                  <li>Ruby on rails</li>
+                  <li>css</li>
+                  <li>Javascript</li>
+                  <li>Html</li>
+                </ul>
+                <button>See Project</button>
+              </section>
+            </article>
+            <article class="card">
+              <section class="content">
+                <h4 class="title">Multi-Post Stories Gain+Glory</h4>
+                <ul>
+                  <li>Ruby on rails</li>
+                  <li>css</li>
+                  <li>Javascript</li>
+                  <li>Html</li>
+                </ul>
+                <button>See Project</button>
+              </section>
+            </article>
+          </div>
+          <div class="card-container">
+            <article class="card">
+              <section class="content">
+                <h4 class="title">Multi-Post Stories Gain+Glory</h4>
+                <ul>
+                  <li>Ruby on rails</li>
+                  <li>css</li>
+                  <li>Javascript</li>
+                  <li>Html</li>
+                </ul>
+                <button>See Project</button>
+              </section>
+            </article>
+            <article class="card">
+              <section class="content">
+                <h4 class="title">Multi-Post Stories Gain+Glory</h4>
+                <ul>
+                  <li>Ruby on rails</li>
+                  <li>css</li>
+                  <li>Javascript</li>
+                  <li>Html</li>
+                </ul>
+                <button>See Project</button>
+              </section>
+            </article>
+            <article class="card">
+              <section class="content">
+                <h4 class="title">Multi-Post Stories Gain+Glory</h4>
+                <ul>
+                  <li>Ruby on rails</li>
+                  <li>css</li>
+                  <li>Javascript</li>
+                  <li>Html</li>
+                </ul>
+                <button>See Project</button>
+              </section>
+            </article>
+          </div>
         </div>
       </section>
       <!-- about section -->
-      <section class="about-section">
+      <section class="about-section" id="about">
         <article class="bio-container">
           <h3 class="heading">About me</h3>
           <img
-            class="img1"
-            src="./assets/illustration 1- about me-mobile@2.png"
+            class="mobile-img1"
+            src="./assets/illustration 1- about me-mobile.png"
             alt=""
           />
+          <img class="desktop-img1" src="./assets/Group@2x.png" alt="" />
           <p class="desc">
             I can help you build a product , feature or website Look through
             some of my work and experience! If you like what you see and have a
@@ -174,8 +187,13 @@
           </p>
           <button class="btn">Get My Resume</button>
           <img
-            class="img2"
+            class="mobile-img2"
             src="./assets/illustration 2-about me mobile.png"
+            alt=""
+          />
+          <img
+            class="desktop-img2"
+            src="./assets/illustration-about-me-2-desktop@2x.png"
             alt=""
           />
         </article>
@@ -228,13 +246,14 @@
       </section>
 
       <!-- contact section -->
-      <section class="contact-section">
+      <section class="contact-section" id="contact">
         <h1 class="contact-heading">
           I'm always interested in hearing about new projects, so if you'd like
           to chat please get in touch.
         </h1>
+
         <form action="https://formspree.io/f/xrgvkqay" method="POST">
-          <fieldset>
+          <fieldset class="mobile-form">
             <input
               type="text"
               name="name"
@@ -263,8 +282,60 @@
             <button class="form-btn" type="submit">Get in touch</button>
           </fieldset>
         </form>
+
+        <form action="https://formspree.io/f/xrgvkqay" method="POST">
+          <fieldset class="desktop-form">
+            <div class="input-wrapper">
+              <input
+                type="text"
+                name="firstname"
+                placeholder="First name"
+                required
+                title="Please enter your first name here"
+                maxlength="30"
+              />
+              <input
+                type="text"
+                name="lastname"
+                placeholder="Last name"
+                required
+                title="Please enter your last name here"
+                maxlength="30"
+              />
+            </div>
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              required
+              title="Please enter your email address here"
+            />
+            <textarea
+              name="message"
+              id="comment"
+              cols="30"
+              rows="10"
+              required
+              title="Please enter your message here"
+              placeholder="Enter text here"
+              maxlength="500"
+            ></textarea>
+            <button class="form-btn" type="submit">Get in touch</button>
+          </fieldset>
+        </form>
       </section>
-      <footer>
+      <div class="contact-illustrations">
+        <div>
+          <img src="./assets/illustration-1-contact-form-desktop.png" alt="" />
+          <img
+            src="./assets/illustration-2-contact-form-desktop@2x.png"
+            alt=""
+          />
+        </div>
+        <img src="./assets/contact form-illustratoin-3-desktop.png" alt="" />
+      </div>
+      <footer id="footer">
+        <hr />
         <ul class="socials-wrapper">
           <li class="socials-container">
             <a href="/">
