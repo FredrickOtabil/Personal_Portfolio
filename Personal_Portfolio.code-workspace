@@ -1,10 +1,10 @@
 {
   "folders": [
-	{
-		"name": "Personal_Portfolio",
-		"path": "."
-	}
-],
+    {
+      "name": "Personal_Portfolio",
+      "path": "."
+    }
+  ],
   "settings": {
     "liveServer.settings.port": 5501
   }
