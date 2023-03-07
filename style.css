@@ -618,6 +618,7 @@ footer .socials-wrapper .socials-container {
   margin-top: -220px;
 }
 
+.contact-illustrations div,
 .contact-illustrations img {
   z-index: -10;
 }
