@@ -90,7 +90,7 @@ To run tests, run the following command:
 ```
 ### Deployment
 Woow, we are live 🚀
-<p>Click <a href="https://fredrickotabil.github.io/Personal_Portfolio/" target="_blank">here</a> to view my website</p>
+<p>Click <a href="https://fredrickotabil.github.io/Personal_Portfolio/" target="_blank" >here</a> to view my website</p>
 
 ## 👥 Author <a name="authors"></a>
 
