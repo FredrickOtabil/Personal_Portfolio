@@ -13,6 +13,8 @@
   --p-text-color: #42526e;
 }
 
+*::after,
+*::before,
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +24,10 @@
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
+}
+
+a:active {
+  color: var(--primary-color);
 }
 
 .body-wrapper {
@@ -647,6 +653,48 @@ footer strong {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  #hamburger {
+    display: block;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    animation: hamburger 0.5s ease-in;
+  }
+
+  @keyframes hamburger {
+    0% {
+      transform: rotate(360deg);
+    }
+
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  #hamburger.hide {
+    display: none;
+  }
+
+  #close-menu {
+    display: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+
+  #close-menu.show {
+    display: block;
+    animation: closebtn 0.5s ease-in;
+  }
+
+  @keyframes closebtn {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
   }
 
   .body-wrapper .mobile-nav > a,
