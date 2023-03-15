@@ -128,10 +128,8 @@ Many hours have been spent on this project. As a result, I'd like to thank my en
 ## 🙏 Prototype <a name="prototype"></a>
 
 <h4 style="text-align: center; margin-bottom: 20px; color:#36b37e">Mobile version</h4>
-<section style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px">
+<section>
 <img src="https://lh4.googleusercontent.com/t9F7LHY7EhXCyStRe36MstcO92i4kyLDQKhQzy5A7fKLYawM1hWcJ_XgbHumwiAtBEo=w2400"/>
-
-<img src="https://lh5.googleusercontent.com/DXOnGJla9_xJfjiS1z-QP63deLhJLeLyilsINxx6_EtCfqLcU1HmVvy5rnk3u1GBFIQ=w2400" style="object-fit: contain"/>
 </section>
 
 <section>
