@@ -10,11 +10,13 @@
     - [Install](#install)
     - [Usage](#usage)
     - [Run tests](#run-tests)
+    - [Deployment](#deployment)
   - [👥 Author ](#-author-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [🙏 Prototype ](#-prototype-)
   - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
   - [📝 License ](#-license-)
 
@@ -88,8 +90,11 @@ To run tests, run the following command:
  npx hint .
  npx stylelint "**/*.{css,scss}"
 ```
+
 ### Deployment
+
 Woow, we are live 🚀
+
 <p>Click <a href="https://fredrickotabil.github.io/Personal_Portfolio/" target="_blank">here</a> to view my website</p>
 
 ## 👥 Author <a name="authors"></a>
@@ -119,6 +124,22 @@ As this is one of the author's first initiatives, please be gracious and show yo
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 Many hours have been spent on this project. As a result, I'd like to thank my entire family for their support throughout this long journey, as well as the microverse team and my partners.
+
+## 🙏 Prototype <a name="prototype"></a>
+
+<h4 style="text-align: center; margin-bottom: 20px; color:#36b37e">Mobile version</h4>
+<section style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px">
+<img src="https://lh4.googleusercontent.com/t9F7LHY7EhXCyStRe36MstcO92i4kyLDQKhQzy5A7fKLYawM1hWcJ_XgbHumwiAtBEo=w2400"/>
+
+<img src="https://lh5.googleusercontent.com/DXOnGJla9_xJfjiS1z-QP63deLhJLeLyilsINxx6_EtCfqLcU1HmVvy5rnk3u1GBFIQ=w2400" style="object-fit: contain"/>
+</section>
+
+<section>
+<h4 style="text-align: center; margin-bottom: 20px; color: #36b37e">Desktop version</h4>
+<img src="https://lh5.googleusercontent.com/89a5HWnfA5UV-07w9rTBzbHhcttc1tNu9wv7W2OVN6vLyCCkMbc-dRxenPyWiGJvP9I=w2400"/>
+</section>
+
+<img src="https://lh6.googleusercontent.com/7jSuAHhkcvSSXVCz83QEcZX7-atQrTGylExJ1eYuJ3Z3GvaJS4AtrMXBstk1hRBO0DQ=w2400"/>
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
