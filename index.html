@@ -17,11 +17,20 @@
       <header class="mobile-nav">
         <a href="/" class="logo">Welcome</a>
         <nav>
-          <i style="font-size: x-large" class="fa-solid fa-bars"></i>
-          <ul>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <i
+            style="font-size: x-large"
+            class="fa-solid fa-bars"
+            id="hamburger"
+          ></i>
+          <i
+            style="font-size: x-large"
+            class="fa-solid fa-xmark"
+            id="close-menu"
+          ></i>
+          <ul class="list">
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -370,5 +379,6 @@
         <strong>copyright &copy; 2023</strong>
       </footer>
     </main>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
