@@ -127,13 +127,14 @@ Many hours have been spent on this project. As a result, I'd like to thank my en
 
 ## 🙏 Prototype <a name="prototype"></a>
 
-<h4 style="text-align: center; margin-bottom: 20px; color:#36b37e">Mobile version</h4>
+<span style="text-align: center; margin-bottom: 20px; color:#36b37e">Mobile version</span>
+
 <div style="width: 100%; display: flex; justify-content: center">
 <img src="https://lh4.googleusercontent.com/t9F7LHY7EhXCyStRe36MstcO92i4kyLDQKhQzy5A7fKLYawM1hWcJ_XgbHumwiAtBEo=w2400" style="object-fit: cover"/>
 </div>
 
 <section>
-<h4 style="text-align: center; margin-bottom: 20px; color: #36b37e">Desktop version</h4>
+<span style="text-align: center; margin-bottom: 20px; color: #36b37e">Desktop version</span>
 <img src="https://lh5.googleusercontent.com/89a5HWnfA5UV-07w9rTBzbHhcttc1tNu9wv7W2OVN6vLyCCkMbc-dRxenPyWiGJvP9I=w2400"/>
 </section>
 
