@@ -1,13 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
 
 :root {
   --primary-color: #36b37e;
   --secondary-color: #172b4d;
-  --primary-font: "Poppins", sans-serif;
-  --secondary-font: "Roboto", sans-serif;
-  --tertiary-font: "Inter", sans-serif;
+  --primary-font: 'Poppins', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
+  --tertiary-font: 'Inter', sans-serif;
   --skills-list-bg: #ebf0ee;
   --skills-list-color: #3a4a42;
   --p-text-color: #42526e;
@@ -46,8 +46,8 @@ body {
   display: none;
 }
 
-.body-wrapper .mobile-nav nav ul,
-.body-wrapper .mobile-nav nav ul li a {
+.body-wrapper .mobile-nav nav .list,
+.body-wrapper .mobile-nav nav .list li a {
   animation: reverse;
   transition: transform 1s;
   display: inline-flex;
@@ -62,8 +62,8 @@ body {
   font-family: var(--tertiary-font);
 }
 
-.body-wrapper .mobile-nav nav ul,
-.body-wrapper .mobile-nav nav ul li a:hover {
+.body-wrapper .mobile-nav nav .list,
+.body-wrapper .mobile-nav nav .list li a:hover {
   color: var(--primary-color);
   -ms-transform: scale(1.2);
   -webkit-transform: scale(1.2);
@@ -87,7 +87,7 @@ body {
 }
 
 .hero-wrapper {
-  background: url("assets/main-images/hero-bg.png") no-repeat center center;
+  background: url('assets/main-images/hero-bg.png') no-repeat center center;
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -654,8 +654,79 @@ footer strong {
     display: block;
   }
 
-  .body-wrapper .mobile-nav nav ul {
+  .body-wrapper .mobile-nav nav .list {
     display: none;
+  }
+
+  .body-wrapper .mobile-nav nav .list.show {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 2%);
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .body-wrapper .mobile-nav nav .list li a {
+    text-align: center;
+    font-size: 1.75rem !important;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: #6b778c;
+    padding: 1rem 0;
+  }
+
+  .body-wrapper .mobile-nav nav .list li {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .body-wrapper .mobile-nav nav .list li:first-child {
+    animation: text 0.5s ease-in;
+  }
+
+  .body-wrapper .mobile-nav nav .list li:nth-child(2) {
+    animation: text 0.5s ease-in 0.1s;
+  }
+
+  .body-wrapper .mobile-nav nav .list li:last-child {
+    animation: text 0.5s ease-in 0.2s;
+  }
+
+  @keyframes text {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .body-wrapper .mobile-nav nav .list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #60c095;
+  }
+
+  .body-wrapper .mobile-nav nav .list li:hover::before {
+    width: 100%;
+    transition: all 0.5s ease-in-out;
   }
 
   .hero-section {
@@ -663,7 +734,7 @@ footer strong {
   }
 
   .hero-wrapper {
-    background: url("assets/main-images/hero-bg.png") no-repeat center center;
+    background: url('assets/main-images/hero-bg.png') no-repeat center center;
     background-size: cover;
     height: 648px;
     position: relative;
