@@ -113,8 +113,8 @@ Woow, we are live 🚀
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
-I want to thank these people for helping to make my project a success
+**Contributions, issues, and feature requests are welcome!**
+_I want to thank these people for helping to make my project a success
 - [@Ddiiro](https://github.com/Ddiiro)
 - [@Fredrick97-coder](https://github.com/Fredrick97-coder)
 
