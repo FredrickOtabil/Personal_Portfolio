@@ -115,8 +115,9 @@ Woow, we are live 🚀
 
 Contributions, issues, and feature requests are welcome!
 I want to thank these people for helping to make my project a success
-@Ddiiro
-@Fredrick97-coder
+- [@Ddiiro](https://github.com/Ddiiro)
+- [@Fredrick97-coder](https://github.com/Fredrick97-coder)
+
 
 ## ⭐️ Show your support <a name="support"></a>
 
