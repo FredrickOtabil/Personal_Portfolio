@@ -93,7 +93,7 @@ a:active {
 }
 
 .hero-wrapper {
-  background: url('assets/main-images/hero-bg.png') no-repeat center center;
+  background: url('../assets/main-images/hero-bg.png') no-repeat center center;
   background-size: cover;
   height: 100vh;
   position: relative;

@@ -102,9 +102,6 @@
   font-weight: 700;
   font-size: 30px;
   color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .project-card .project-details .project-links {
