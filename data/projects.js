@@ -13,7 +13,7 @@ const projectDetails = (project) => {
        <ul>
          ${techStack.map((tech) => `<li>${tech}</li>`).join('')}
        </ul>
-       <button class='show-project-btn'>See Project</button>
+       <button type="control" class='show-project-btn'>See Project</button>
      </section>
  `;
   projectContainer.appendChild(projectCard);
