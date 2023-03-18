@@ -1,5 +1,5 @@
 /* eslint-disable indent */
-import projectDetailsData from './data.js';
+import projectDetailsData from '../model/data.js';
 
 const projectsWrapper = document.querySelector('.project-details-wrapper');
 const projects = document.querySelector('.project-container');
@@ -33,7 +33,7 @@ const showProjectDetails = (project) => {
         </div>
         </section>
     `;
-  return projects.appendChild(projectCard);
+  projects?.appendChild(projectCard);
 };
 
 showProjectsBtn.forEach((btn, index) => {

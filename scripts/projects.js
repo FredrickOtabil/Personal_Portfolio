@@ -1,4 +1,5 @@
-import projectDetailsData from './data.js';
+/* eslint-disable indent */
+import projectDetailsData from '../model/data.js';
 
 const projectWrapper = document.querySelector('.card-wrapper');
 const projectContainer = document.createElement('div');

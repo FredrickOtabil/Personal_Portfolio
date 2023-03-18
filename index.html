@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/project.style.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/projectdetails.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/contact.css" />
     <title>My Portfolio</title>
     <script
       src="https://kit.fontawesome.com/8f721d437f.js"
@@ -94,6 +97,13 @@
         </h2>
         <div class="divider"></div>
         <div class="card-wrapper"></div>
+        <section class="project-details-wrapper">
+          <section class="project-container">
+            <div class="close-icon-container" id="close-modal">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </section>
+        </section>
       </section>
       <!-- about section -->
       <section class="about-section" id="about">
@@ -171,13 +181,6 @@
               </ul>
             </section>
           </article>
-        </section>
-      </section>
-      <section class="project-details-wrapper">
-        <section class="project-container">
-          <div class="close-icon-container" id="close-modal">
-            <i class="fa-solid fa-xmark"></i>
-          </div>
         </section>
       </section>
       <!-- contact section -->
@@ -305,7 +308,7 @@
       </footer>
     </main>
     <script src="./scripts/index.js"></script>
-    <script type="module" src="./data/projects.js"></script>
-    <script type="module" src="./data/projectDetails.js"></script>
+    <script type="module" src="./scripts/projects.js"></script>
+    <script type="module" src="./scripts/projectDetails.js"></script>
   </body>
 </html>
