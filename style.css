@@ -223,6 +223,7 @@ footer .socials-wrapper .socials-container {
   flex-wrap: wrap;
   gap: 24px;
   padding: 0 24px;
+  margin: 0 95px;
 }
 
 .card-wrapper .card {
@@ -839,6 +840,7 @@ footer strong {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
   }
 
   .card-wrapper .card-container .card {
