@@ -45,17 +45,6 @@ showProjectsBtn.forEach((btn, index) => {
 });
 
 const closeModal = document.getElementById('close-modal');
-const projectImages = document.querySelectorAll('.project-image');
-const projectDetails = document.querySelectorAll('.project-details');
-const projectLinks = document.querySelectorAll('.project-links');
-
-projectImages.forEach((image) => {
-  image.addEventListener('click', () => {
-    image.classList.toggle('show');
-    projectDetails.classList.toggle('show');
-    projectLinks.classList.toggle('show');
-  });
-});
 
 function CloseModal() {
   projectsWrapper.style = 'visibility: hidden';

@@ -65,7 +65,7 @@
 @keyframes projects {
   0% {
     opacity: 0;
-    transform: translateY(1000px);
+    transform: translateY(100px);
   }
 
   100% {
@@ -156,7 +156,7 @@
 
 .project-card .project-details .project-desc {
   width: 100%;
-  font-family: var(--secondary-font);
+  font-family: var(--tertiary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -171,97 +171,38 @@
   }
 
   .project-card {
-    position: relative;
     width: 343px;
     max-height: 836px;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
     padding: 16px;
   }
 
   .project-card .project-image {
-    max-width: 100%;
     height: 220px;
-    border-radius: 8px;
     margin: 10px auto;
-  }
-
-  .project-card .project-image > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
   }
 
   .project-card .project-details > h2 {
     width: 100%;
-    font-family: var(--secondary-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    color: #172b4d;
+    font-family: var(--tertiary-font);
   }
 
   .project-card .project-details .tech-stack ul {
-    display: flex;
     justify-content: space-between;
-    gap: 10px;
-    margin: 10px 0;
   }
 
   .project-card .project-details .tech-stack ul li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    height: 40px;
-    background: #f4f5f7;
-    border-radius: 8px;
-    font-family: var(--tertiary-font);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 20px;
-    color: #172b4d;
     margin: 20px 0;
   }
 
   .project-card .project-details .project-desc {
-    width: 100%;
-    font-family: var(--tertiary-font);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    color: #344563;
     line-height: 25px;
     margin-bottom: 20px;
   }
 
   .project-card .project-details .project-links {
     position: relative;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .project-card .project-details .project-links > a {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px;
-    height: 48px;
-    gap: 10px;
-    background: #36b37e;
-    border-radius: 8px;
-    text-decoration: none;
-    color: #fff;
-    font-family: var(--tertiary-font);
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
   }
 }
