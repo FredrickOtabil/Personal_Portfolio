@@ -1,316 +1,320 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="css/projects.css" />
     <link rel="stylesheet" href="css/projectdetails.css" />
-    <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="css/contact.css" />
     <title>My Portfolio</title>
+    <link rel="preconnect" href="https://kit.fontawesome.com/" crossorigin />
     <script
       src="https://kit.fontawesome.com/8f721d437f.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-    <main class="body-wrapper">
-      <!-- mobile nav section -->
-      <header class="mobile-nav">
-        <a href="/" class="logo">Welcome</a>
-        <nav>
-          <i class="fa-solid fa-bars" id="hamburger"></i>
-          <i class="fa-solid fa-xmark" id="close-menu"></i>
-          <ul class="list">
-            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-            <li><a href="#about" class="nav-link">About</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-      <div class="hero-wrapper">
-        <!-- hero section -->
-        <section class="hero-section">
-          <div class="container">
-            <article class="content">
-              <h1>
-                Hey there. I’m Clarkson. <br />
-                <span>I’m a software developer</span>
-              </h1>
-              <p>
-                I can help you build a product , feature or website Look through
-                some of my work and experience! If you like what you see and
-                have a project you need coded, don’t hestiate to contact me.
-              </p>
-            </article>
-            <ul class="socials-wrapper">
-              <li class="socials-container">
-                <a href="/">
-                  <img
-                    src="./assets/main-images/github.png"
-                    alt="github-link"
-                  />
-                </a>
-              </li>
-              <li class="socials-container">
-                <a href="/">
-                  <img
-                    src="./assets/main-images/linkedin.png"
-                    alt="linkedin-link"
-                  />
-                </a>
-              </li>
-              <li class="socials-container">
-                <a href="/">
-                  <img src="./assets/main-images/hand.png" alt="handy-link" />
-                </a>
-              </li>
-              <li class="socials-container">
-                <a href="/">
-                  <img
-                    src="./assets/main-images/twitter.png"
-                    alt="twitter-link"
-                  />
-                </a>
-              </li>
-              <li class="socials-container">
-                <a href="/">
-                  <img src="./assets/main-images/M.png" alt="M-link" />
-                </a>
-              </li>
-            </ul>
-            <button type="submit" class="down-arrow">
-              <a href="#footer" class="link">
-                <i class="fa-solid fa-chevron-down"></i>
+    <!-- mobile nav section -->
+    <header class="mobile-nav">
+      <a href="/" class="logo">Welcome</a>
+      <nav>
+        <button
+          type="submit"
+          aria-label="Open Menu"
+          id="hamburger"
+          aria-expanded="false"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <button
+          type="submit"
+          aria-label="Close Menu"
+          id="close-menu"
+          aria-expanded="true"
+        >
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <ul class="list">
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="hero-wrapper">
+      <!-- hero section -->
+      <section class="hero-section">
+        <div class="container">
+          <article class="content">
+            <h1>
+              Hey there. I’m Clarkson. <br />
+              <span>I’m a software developer</span>
+            </h1>
+            <p>
+              I can help you build a product , feature or website Look through
+              some of my work and experience! If you like what you see and have
+              a project you need coded, don’t hestiate to contact me.
+            </p>
+          </article>
+          <ul class="socials-wrapper">
+            <li class="socials-container">
+              <a href="/">
+                <img src="./assets/main-images/github.png" alt="github-link" />
               </a>
-            </button>
+            </li>
+            <li class="socials-container">
+              <a href="/">
+                <img
+                  src="./assets/main-images/linkedin.png"
+                  alt="linkedin-link"
+                />
+              </a>
+            </li>
+            <li class="socials-container">
+              <a href="/">
+                <img src="./assets/main-images/hand.png" alt="handy-link" />
+              </a>
+            </li>
+            <li class="socials-container">
+              <a href="/">
+                <img
+                  src="./assets/main-images/twitter.png"
+                  alt="twitter-link"
+                />
+              </a>
+            </li>
+            <li class="socials-container">
+              <a href="/">
+                <img src="./assets/main-images/M.png" alt="M-link" />
+              </a>
+            </li>
+          </ul>
+          <button type="submit" class="down-arrow">
+            <a href="#footer" class="link">
+              <i class="fa-solid fa-chevron-down"></i>
+            </a>
+          </button>
+        </div>
+      </section>
+    </div>
+    <!-- work section -->
+    <section class="work-section" id="portfolio">
+      <h2 class="heading">
+        My Recent<br />
+        Works
+      </h2>
+      <div class="divider"></div>
+      <div class="card-wrapper"></div>
+      <section class="project-details-wrapper">
+        <section class="project-container">
+          <div class="close-icon-container" id="close-modal">
+            <i class="fa-solid fa-xmark"></i>
           </div>
         </section>
-      </div>
-      <!-- work section -->
-      <section class="work-section" id="portfolio">
-        <h2 class="heading">
-          My Recent<br />
-          Works
-        </h2>
-        <div class="divider"></div>
-        <div class="card-wrapper"></div>
-        <section class="project-details-wrapper">
-          <section class="project-container">
-            <div class="close-icon-container" id="close-modal">
-              <i class="fa-solid fa-xmark"></i>
-            </div>
+      </section>
+    </section>
+    <!-- about section -->
+    <section class="about-section" id="about">
+      <article class="bio-container">
+        <h3 class="heading">About me</h3>
+        <img
+          class="mobile-img1"
+          src="./assets/illustration 1- about me-mobile.png"
+          alt="mobile-img1"
+        />
+        <img
+          class="desktop-img1"
+          src="./assets/Group@2x.png"
+          alt="desktop-img1"
+        />
+        <p class="desc">
+          I can help you build a product , feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hestiate to contact me.
+        </p>
+        <button type="submit" class="btn">Get My Resume</button>
+        <img
+          class="mobile-img2"
+          src="./assets/illustration 2-about me mobile.png"
+          alt="mobile-img2"
+        />
+        <img
+          class="desktop-img2"
+          src="./assets/illustration-about-me-2-desktop@2x.png"
+          alt="desktop-img2"
+        />
+      </article>
+      <section class="bio-details">
+        <article class="card">
+          <div class="icon-container">
+            <img src="./assets/language.png" alt="language-icon" />
+          </div>
+          <section class="content">
+            <h4 class="title">Languages</h4>
+            <ul>
+              <li>Ruby on rails</li>
+              <li>css</li>
+              <li>Javascript</li>
+              <li>Html</li>
+            </ul>
           </section>
-        </section>
-      </section>
-      <!-- about section -->
-      <section class="about-section" id="about">
-        <article class="bio-container">
-          <h3 class="heading">About me</h3>
-          <img
-            class="mobile-img1"
-            src="./assets/illustration 1- about me-mobile.png"
-            alt="mobile-img1"
-          />
-          <img
-            class="desktop-img1"
-            src="./assets/Group@2x.png"
-            alt="desktop-img1"
-          />
-          <p class="desc">
-            I can help you build a product , feature or website Look through
-            some of my work and experience! If you like what you see and have a
-            project you need coded, don’t hestiate to contact me.
-          </p>
-          <button type="submit" class="btn">Get My Resume</button>
-          <img
-            class="mobile-img2"
-            src="./assets/illustration 2-about me mobile.png"
-            alt="mobile-img2"
-          />
-          <img
-            class="desktop-img2"
-            src="./assets/illustration-about-me-2-desktop@2x.png"
-            alt="desktop-img2"
-          />
         </article>
-        <section class="bio-details">
-          <article class="card">
-            <div class="icon-container">
-              <img src="./assets/language.png" alt="language-icon" />
-            </div>
-            <section class="content">
-              <h4 class="title">Languages</h4>
-              <ul>
-                <li>Ruby on rails</li>
-                <li>css</li>
-                <li>Javascript</li>
-                <li>Html</li>
-              </ul>
-            </section>
-          </article>
-          <article class="card">
-            <div class="icon-container">
-              <img src="./assets/framework.png" alt="framework-icon" />
-            </div>
-            <section class="content">
-              <h4 class="title">Frameworks</h4>
-              <ul>
-                <li>Bootstrap</li>
-                <li>Ruby on rails</li>
-                <li>RSpec</li>
-                <li>Capybara</li>
-                <li>Selenium</li>
-              </ul>
-            </section>
-          </article>
-          <article class="card">
-            <div class="icon-container">
-              <img src="./assets/skills.png" alt="skills-icon" />
-            </div>
-            <section class="content">
-              <h4 class="title">Skills</h4>
-              <ul>
-                <li>Codekit</li>
-                <li>GitHub</li>
-                <li>Codepen</li>
-                <li>Gitlab</li>
-                <li>Terminal</li>
-              </ul>
-            </section>
-          </article>
-        </section>
+        <article class="card">
+          <div class="icon-container">
+            <img src="./assets/framework.png" alt="framework-icon" />
+          </div>
+          <section class="content">
+            <h4 class="title">Frameworks</h4>
+            <ul>
+              <li>Bootstrap</li>
+              <li>Ruby on rails</li>
+              <li>RSpec</li>
+              <li>Capybara</li>
+              <li>Selenium</li>
+            </ul>
+          </section>
+        </article>
+        <article class="card">
+          <div class="icon-container">
+            <img src="./assets/skills.png" alt="skills-icon" />
+          </div>
+          <section class="content">
+            <h4 class="title">Skills</h4>
+            <ul>
+              <li>Codekit</li>
+              <li>GitHub</li>
+              <li>Codepen</li>
+              <li>Gitlab</li>
+              <li>Terminal</li>
+            </ul>
+          </section>
+        </article>
       </section>
-      <!-- contact section -->
-      <section class="contact-section" id="contact">
-        <h1 class="contact-heading">
-          I'm always interested in hearing about new projects, so if you'd like
-          to chat please get in touch.
-        </h1>
-        <form action="https://formspree.io/f/xrgvkqay" method="POST">
-          <fieldset class="mobile-form">
+    </section>
+    <!-- contact section -->
+    <section class="contact-section" id="contact">
+      <h1 class="contact-heading">
+        I'm always interested in hearing about new projects, so if you'd like to
+        chat please get in touch.
+      </h1>
+      <form action="https://formspree.io/f/xrgvkqay" method="POST">
+        <fieldset class="mobile-form">
+          <input
+            type="text"
+            name="name"
+            placeholder="Full name"
+            required
+            title="Please enter your full name here"
+            maxlength="30"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            required
+            title="Please enter your email address here"
+          />
+          <textarea
+            name="message"
+            id="comment"
+            cols="30"
+            rows="10"
+            required
+            title="Please enter your message here"
+            placeholder="Enter text here"
+            maxlength="500"
+          ></textarea>
+          <button class="form-btn" type="submit">Get in touch</button>
+        </fieldset>
+      </form>
+
+      <form action="https://formspree.io/f/xrgvkqay" method="POST">
+        <fieldset class="desktop-form">
+          <div class="input-wrapper">
             <input
               type="text"
-              name="name"
-              placeholder="Full name"
+              name="firstname"
+              placeholder="First name"
               required
-              title="Please enter your full name here"
+              title="Please enter your first name here"
               maxlength="30"
             />
             <input
-              type="email"
-              name="email"
-              placeholder="Email"
+              type="text"
+              name="lastname"
+              placeholder="Last name"
               required
-              title="Please enter your email address here"
+              title="Please enter your last name here"
+              maxlength="30"
             />
-            <textarea
-              name="message"
-              id="comment"
-              cols="30"
-              rows="10"
-              required
-              title="Please enter your message here"
-              placeholder="Enter text here"
-              maxlength="500"
-            ></textarea>
-            <button class="form-btn" type="submit">Get in touch</button>
-          </fieldset>
-        </form>
-
-        <form action="https://formspree.io/f/xrgvkqay" method="POST">
-          <fieldset class="desktop-form">
-            <div class="input-wrapper">
-              <input
-                type="text"
-                name="firstname"
-                placeholder="First name"
-                required
-                title="Please enter your first name here"
-                maxlength="30"
-              />
-              <input
-                type="text"
-                name="lastname"
-                placeholder="Last name"
-                required
-                title="Please enter your last name here"
-                maxlength="30"
-              />
-            </div>
-            <input
-              type="email"
-              name="email"
-              placeholder="Email"
-              required
-              title="Please enter your email address here"
-            />
-            <textarea
-              name="message"
-              id="comment"
-              cols="30"
-              rows="10"
-              required
-              title="Please enter your message here"
-              placeholder="Enter text here"
-              maxlength="500"
-            ></textarea>
-            <button class="form-btn" type="submit">Get in touch</button>
-          </fieldset>
-        </form>
-      </section>
-      <div class="contact-illustrations">
-        <div>
-          <img src="./assets/illustration-1-contact-form-desktop.png" alt="" />
-          <img
-            src="./assets/illustration-2-contact-form-desktop@2x.png"
-            alt=""
+          </div>
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            required
+            title="Please enter your email address here"
           />
-        </div>
-        <img src="./assets/contact form-illustratoin-3-desktop.png" alt="" />
+          <textarea
+            name="message"
+            id="comment"
+            cols="30"
+            rows="10"
+            required
+            title="Please enter your message here"
+            placeholder="Enter text here"
+            maxlength="500"
+          ></textarea>
+          <button class="form-btn" type="submit">Get in touch</button>
+        </fieldset>
+      </form>
+    </section>
+    <div class="contact-illustrations">
+      <div>
+        <img src="./assets/illustration-1-contact-form-desktop.png" alt="" />
+        <img src="./assets/illustration-2-contact-form-desktop@2x.png" alt="" />
       </div>
-      <footer id="footer">
-        <hr />
-        <ul class="socials-wrapper">
-          <li class="socials-container">
-            <a href="/">
-              <img src="./assets/main-images/github.png" alt="github-link" />
-            </a>
-          </li>
-          <li class="socials-container">
-            <a href="/">
-              <img
-                src="./assets/main-images/linkedin.png"
-                alt="linkedin-link"
-              />
-            </a>
-          </li>
-          <li class="socials-container">
-            <a href="/">
-              <img src="./assets/main-images/hand.png" alt="handy-link" />
-            </a>
-          </li>
-          <li class="socials-container">
-            <a href="/">
-              <img src="./assets/main-images/twitter.png" alt="twitter-link" />
-            </a>
-          </li>
-          <li class="socials-container">
-            <a href="/">
-              <img src="./assets/main-images/M.png" alt="M-link" />
-            </a>
-          </li>
-        </ul>
-        <p class="footer-email">otabilfredrick0@gmail.com</p>
-        <strong class="copyright"
-          >copyright &copy; 2023, All Rights Reserved</strong
-        >
-      </footer>
-    </main>
-    <script src="./scripts/index.js"></script>
+      <img src="./assets/contact form-illustratoin-3-desktop.png" alt="" />
+    </div>
+    <footer id="footer">
+      <hr />
+      <ul class="socials-wrapper">
+        <li class="socials-container">
+          <a href="/">
+            <img src="./assets/main-images/github.png" alt="github-link" />
+          </a>
+        </li>
+        <li class="socials-container">
+          <a href="/">
+            <img src="./assets/main-images/linkedin.png" alt="linkedin-link" />
+          </a>
+        </li>
+        <li class="socials-container">
+          <a href="/">
+            <img src="./assets/main-images/hand.png" alt="handy-link" />
+          </a>
+        </li>
+        <li class="socials-container">
+          <a href="/">
+            <img src="./assets/main-images/twitter.png" alt="twitter-link" />
+          </a>
+        </li>
+        <li class="socials-container">
+          <a href="/">
+            <img src="./assets/main-images/M.png" alt="M-link" />
+          </a>
+        </li>
+      </ul>
+      <p class="footer-email">otabilfredrick0@gmail.com</p>
+      <strong class="copyright"
+        >copyright &copy; 2023, All Rights Reserved</strong
+      >
+    </footer>
+    <!-- <script src="./scripts/index.js"></script>
     <script type="module" src="./scripts/projects.js"></script>
-    <script type="module" src="./scripts/projectDetails.js"></script>
+    <script type="module" src="./scripts/projectDetails.js"></script> -->
   </body>
 </html>

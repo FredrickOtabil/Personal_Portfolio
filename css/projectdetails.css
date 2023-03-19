@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #36b37e;
+  --secondary-color: #172b4d;
+  --primary-font: 'Poppins', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
+  --tertiary-font: 'Inter', sans-serif;
+  --skills-list-bg: #ebf0ee;
+  --skills-list-color: #3a4a42;
+  --p-text-color: #42526e;
+}
+
+.project-details-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  visibility: hidden;
+}
+
+.project-details-wrapper.show {
+  visibility: visible;
+}
+
+.project-details-wrapper .close-icon-container {
+  position: absolute;
+  margin: 65px 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  cursor: pointer;
+  background: #ebecf0;
+  border-radius: 4px;
+  padding: 5px 7px;
+  z-index: 999;
+}
+
+.project-details-wrapper .close-icon-container > i {
+  font-size: x-large;
+  color: #172b4d;
+}
+
+.project-card {
+  position: relative;
+  max-width: 920px;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 990;
+  overflow-y: scroll;
+  border-radius: 10px;
+  animation: projects 0.3s ease-in-out;
+}
+
+@keyframes projects {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.project-card .project-details {
+  position: relative;
+}
+
+.project-card .project-image {
+  width: 100%;
+  height: 530px;
+  background: #eee;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.project-card .project-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.project-card .project-details > h2 {
+  width: 589px;
+  height: 82px;
+  font-family: var(--tertiary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #172b4d;
+}
+
+.project-card .project-details .project-links {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.project-card .project-details .project-links > a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  height: 48px;
+  gap: 10px;
+  background: #36b37e;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-family: var(--tertiary-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.project-card .project-details .tech-stack ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.project-card .project-details .tech-stack ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  background: #f4f5f7;
+  border-radius: 8px;
+  font-family: var(--tertiary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+.project-card .project-details .project-desc {
+  width: 100%;
+  font-family: var(--tertiary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
+}
+
+/* mobile version */
+@media only screen and (max-width: 767px) {
+  .project-details-wrapper .close-icon-container {
+    top: 65px;
+  }
+
+  .project-card {
+    width: 343px;
+    max-height: 836px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .project-card .project-image {
+    height: 220px;
+    margin: 10px auto;
+  }
+
+  .project-card .project-details > h2 {
+    width: 100%;
+  }
+
+  .project-card .project-details .tech-stack ul {
+    justify-content: space-between;
+  }
+
+  .project-card .project-details .tech-stack ul li {
+    margin: 20px 0;
+  }
+
+  .project-card .project-details .project-desc {
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .project-card .project-details .project-links {
+    position: relative;
+    justify-content: space-between;
+  }
+}

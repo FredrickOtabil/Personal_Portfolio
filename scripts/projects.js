@@ -17,8 +17,8 @@ const projectDetails = (project) => {
        <button type="control" class='show-project-btn'>See Project</button>
      </section>
  `;
-  projectContainer.appendChild(projectCard);
   projectContainer.classList.add('card-container');
+  projectContainer.appendChild(projectCard);
 };
 
 projectDetailsData?.map((project) => projectDetails(project));
